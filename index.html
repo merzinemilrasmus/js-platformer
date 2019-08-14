@@ -6,17 +6,22 @@
 		<title>PLATFORMER</title>
 		<style>
 			body {
-				background-image: url("images/vines.png");
+				background-image: url("images/background.png");
 			}
 			#root {
 				position: fixed;
 				left: 50%;
 				top: 50%;
 			}
+			#world {
+				position: absolute;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="root"></div>
+		<div id="root">
+			<div id="world"></div>
+		</div>
 		<script src="script.js"></script>
 	</body>
 </html>
